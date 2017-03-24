@@ -1,8 +1,24 @@
-<h3>Your text is: </h3>
+<div>
+<h4 class="output">Your text is: </h4>
+  <div class="output">
     <%= @text %>
+  </div>
+</div>
 
-<h3>Your target word is: </h3>
-    <%= @word %>
+<div>
+<h4 class="output">Your target word is: </h4><div class="output"><%= @word %></div>
+</div>
 
-<h3>Count of target word:</h3>
+<div>
+<h4 class="output">Count of target word in text:</h4>
+   <div class="output">
     <%= @result %>
+   </div>
+</div>
+
+<div>
+<h4 class="output">Count of target including subsets of words: </h4>
+   <div class="output">
+    <%= @newresult %>
+   </div>
+</div>

@@ -1,0 +1,60 @@
+
+body
+   {
+    padding-top: 5%;
+    background-image: url('/images/wordsbg.jpg');
+   }
+
+h4
+ {
+  font-family: cursive;
+	font-size: 40px;
+  display: inline;
+	font-style: normal;
+  color: white;
+ }
+
+.output
+{
+  font-family: Comic Sans MS;
+	font-size: 30px;
+	font-style: normal;
+  color: white;
+  width: 300px;
+  height: 100px;
+  display: inline-block;
+  margin: 0;
+}
+
+.form-group
+{
+
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+  width: auto;
+}
+
+h1
+{
+  margin-left: 40%;
+  color: white;
+  font-family: Comic Sans MS,fantasy;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+input[type="text"]
+{
+    font-family: Comic Sans MS;
+    font-size:30px;
+    color: #89051d;
+}
+
+input[type="target"]
+{
+    font-family: Comic Sans MS;
+    font-size:30px;
+    color: #89051d;
+}
